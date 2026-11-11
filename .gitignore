@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# SQLite / local data
+*.db
+*.db-journal
+data/app.db
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+node_modules/
+.next/
+out/
+frontend/node_modules/
+frontend/.next/
+
+# Evaluation outputs
+evaluations/latest_results.json
+
+# Large local walkthrough videos (screenshots under demo/image are fine)
+demo/movie/*.mp4
+demo/movie/*.mov
+demo/movie/*.webm
+
+# Secrets / local overrides
+*.pem
+secrets/

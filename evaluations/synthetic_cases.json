@@ -1,0 +1,34 @@
+[
+  {
+    "id": "case-password-alice",
+    "subject": "Password reset",
+    "body": "Please reset password for alice@acme.com",
+    "from_email": "manager@acme.com",
+    "expect_tools_any": ["lookup_ldap_user", "lookup_gac_user"],
+    "expect_needs_review": true
+  },
+  {
+    "id": "case-gac-frank",
+    "subject": "GAC missing",
+    "body": "frank@acme.com is not in GAC",
+    "from_email": "alice@acme.com",
+    "expect_tools_any": ["lookup_gac_user", "lookup_ldap_user"],
+    "expect_needs_review": true
+  },
+  {
+    "id": "case-vpn-bob",
+    "subject": "VPN access",
+    "body": "Please provision VPN for bob.smith@globex.com",
+    "from_email": "grace@globex.com",
+    "expect_tools_any": ["lookup_ldap_user"],
+    "expect_needs_review": true
+  },
+  {
+    "id": "case-unknown-user",
+    "subject": "Unknown person",
+    "body": "Help nobody@acme.com with access",
+    "from_email": "manager@acme.com",
+    "expect_tools_any": ["lookup_ldap_user"],
+    "expect_needs_review": true
+  }
+]

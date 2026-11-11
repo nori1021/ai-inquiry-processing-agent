@@ -1,0 +1,12 @@
+Subject: Re: {{subject}}
+
+Hello {{name}},
+
+Thank you for contacting IT Helpdesk. We reviewed your inquiry regarding {{email}}.
+
+{{extra_notes}}
+
+We will follow up if additional information is required.
+
+Regards,
+IT Helpdesk

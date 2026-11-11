@@ -1,0 +1,17 @@
+Subject: Re: {{subject}} — GAC registration
+
+Hello {{name}},
+
+We investigated GAC registration for {{email}}.
+
+Status summary:
+- LDAP: {{ldap_status}}
+- GAC: {{gac_status}}
+- Company domain: {{domain}}
+
+{{extra_notes}}
+
+If registration is still missing after verification, please provide your company contact so we can complete onboarding.
+
+Regards,
+IT Helpdesk

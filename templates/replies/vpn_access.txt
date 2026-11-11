@@ -1,0 +1,13 @@
+Subject: Re: {{subject}} — VPN access
+
+Hello {{name}},
+
+We reviewed the VPN access request for {{email}} ({{company_name}}).
+
+Next steps:
+1. Confirm LDAP status is Active
+2. Complete VPN onboarding checklist
+3. Notify your manager once provisioned
+
+Regards,
+IT Helpdesk

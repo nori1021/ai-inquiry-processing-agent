@@ -43,7 +43,11 @@ Tool results and RAG snippets come from real local runs/retrieval — they are n
 | ![Completed](demo/image/new%20inquiry_completion.png) | Completed flow after both approvals |
 | ![Evaluations](demo/image/evaluate.png) | Simple evaluation runner |
 
-There is also a walkthrough video under `demo/movie/`, but it is **not in git** (too large). Keep it local if you record one.
+## Demo video
+
+[Watch the walkthrough (MP4)](https://github.com/nori1021/ai-inquiry-processing-agent/releases/download/demo-video/demo-new-inquiry.mp4) · [Release page](https://github.com/nori1021/ai-inquiry-processing-agent/releases/tag/demo-video)
+
+Covers: new inquiry → analysis → decision approval → email draft → completion. The file stays on the Release (not in git) because it is large (~82&nbsp;MB).
 
 ## Run locally (Windows)
 
